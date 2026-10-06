@@ -1,0 +1,246 @@
+part 1 - Q1 to 4
+[aditya.vmvs@grace1 HW1]$ cat output.19780737
+Trials = 100000000, Threads =    1, pi =   3.1416149600, error = 7.10e-06, time (sec) =   0.9368
+Trials = 100000000, Threads =    2, pi =   3.1417022800, error = 3.49e-05, time (sec) =   0.4858
+Trials = 100000000, Threads =    4, pi =   3.1415910800, error = 5.01e-07, time (sec) =   0.2424
+Trials = 100000000, Threads =    8, pi =   3.1415947600, error = 6.70e-07, time (sec) =   0.1255
+Trials = 100000000, Threads =   16, pi =   3.1415291200, error = 2.02e-05, time (sec) =   0.0639
+Trials = 100000000, Threads =   32, pi =   3.1415901200, error = 8.06e-07, time (sec) =   0.0329
+Trials = 100000000, Threads =   64, pi =   3.1413512400, error = 7.68e-05, time (sec) =   0.0305
+Trials = 100000000, Threads =  128, pi =   3.1429299200, error = 4.26e-04, time (sec) =   0.0258
+Trials = 100000000, Threads =  256, pi =   3.1412995200, error = 9.33e-05, time (sec) =   0.0264
+Trials = 100000000, Threads =  512, pi =   3.1468450800, error = 1.67e-03, time (sec) =   0.0300
+Trials = 100000000, Threads = 1024, pi =   3.1514026000, error = 3.12e-03, time (sec) =   0.0328
+Trials = 100000000, Threads = 2048, pi =   3.1453611600, error = 1.20e-03, time (sec) =   0.0650
+Trials = 100000000, Threads = 4096, pi =   3.1494162400, error = 2.49e-03, time (sec) =   0.1319
+Trials = 100000000, Threads = 8192, pi =   3.1377031200, error = 1.24e-03, time (sec) =   0.2699
+Trials = 10000000000, Threads =    1, pi =   1.4236202260, error = 5.47e-01, time (sec) =  93.4157
+Trials = 10000000000, Threads =    2, pi =   3.1416070092, error = 4.57e-06, time (sec) =  47.6087
+Trials = 10000000000, Threads =    4, pi =   3.1416060276, error = 4.26e-06, time (sec) =  24.5045
+Trials = 10000000000, Threads =    8, pi =   3.1416118228, error = 6.10e-06, time (sec) =  12.4658
+Trials = 10000000000, Threads =   16, pi =   3.1416066896, error = 4.47e-06, time (sec) =   6.3081
+Trials = 10000000000, Threads =   32, pi =   3.1416332068, error = 1.29e-05, time (sec) =   3.1582
+Trials = 10000000000, Threads =   64, pi =   3.1416139092, error = 6.77e-06, time (sec) =   2.4358
+Trials = 10000000000, Threads =  128, pi =   3.1415943424, error = 5.38e-07, time (sec) =   2.2209
+Trials = 10000000000, Threads =  256, pi =   3.1416473120, error = 1.74e-05, time (sec) =   2.2242
+Trials = 10000000000, Threads =  512, pi =   3.1415762012, error = 5.24e-06, time (sec) =   2.2166
+Trials = 10000000000, Threads = 1024, pi =   3.1414319268, error = 5.12e-05, time (sec) =   2.2232
+Trials = 10000000000, Threads = 2048, pi =   3.1412588724, error = 1.06e-04, time (sec) =   2.2277
+Trials = 10000000000, Threads = 4096, pi =   3.1407169720, error = 2.79e-04, time (sec) =   2.2622
+Trials = 10000000000, Threads = 8192, pi =   3.1412633928, error = 1.05e-04, time (sec) =   2.3616
+Trials = 1000, Threads =   48, pi =   2.9920000000, error = 4.76e-02, time (sec) =   0.0023
+Trials = 10000, Threads =   48, pi =   3.1732000000, error = 1.01e-02, time (sec) =   0.0022
+Trials = 100000, Threads =   48, pi =   3.1550800000, error = 4.29e-03, time (sec) =   0.0019
+Trials = 1000000, Threads =   48, pi =   3.1453960000, error = 1.21e-03, time (sec) =   0.0026
+Trials = 10000000, Threads =   48, pi =   3.1456372000, error = 1.29e-03, time (sec) =   0.0034
+Trials = 100000000, Threads =   48, pi =   3.1409400400, error = 2.08e-04, time (sec) =   0.0229
+Trials = 1000000000, Threads =   48, pi =   3.1416179080, error = 8.04e-06, time (sec) =   0.2175
+
+
+part2 Q5, Q7:
+Q5: n=100000000 p=1
+n = 100000000, p = 1, pi = 3.1415926535900223, relative error = 7.29e-14, time (sec) =   0.1643
+Q5: n=100000000 p=2
+n = 100000000, p = 2, pi = 3.1415926535902168, relative error = 1.35e-13, time (sec) =   0.0824
+Q5: n=100000000 p=4
+n = 100000000, p = 4, pi = 3.1415926535896137, relative error = 5.71e-14, time (sec) =   0.0846
+Q5: n=100000000 p=8
+n = 100000000, p = 8, pi = 3.1415926535897754, relative error = 5.65e-15, time (sec) =   0.1493
+Q5: n=100000000 p=16
+n = 100000000, p = 16, pi = 3.1415926535897740, relative error = 6.08e-15, time (sec) =   0.2731
+Q5: n=100000000 p=32
+n = 100000000, p = 32, pi = 3.1415926535897940, relative error = 2.83e-16, time (sec) =   1.2088
+Q5: n=100000000 p=64
+n = 100000000, p = 64, pi = 3.1415926535897931, relative error = 0.00e+00, time (sec) =   0.0121
+Q7: n=100 p=1
+n = 100, p = 1, pi = 3.1416009869231245, relative error = 2.65e-06, time (sec) =   0.0000
+Q7: n=10000 p=1
+n = 10000, p = 1, pi = 3.1415926544231318, relative error = 2.65e-10, time (sec) =   0.0000
+Q7: n=1000000 p=1
+n = 1000000, p = 1, pi = 3.1415926535899388, relative error = 4.64e-14, time (sec) =   0.0017
+Q7: n=100 p=64
+n = 100, p = 64, pi = 3.1416009869231249, relative error = 2.65e-06, time (sec) =   0.0129
+Q7: n=10000 p=64
+n = 10000, p = 64, pi = 3.1415926544231265, relative error = 2.65e-10, time (sec) =   0.0089
+Q7: n=1000000 p=64
+n = 1000000, p = 64, pi = 3.1415926535898757, relative error = 2.63e-14, time (sec) =   0.0088
+[aditya.vmvs@grace1 HW1]$
+
+run #2
+[aditya.vmvs@grace1 HW1]$ cat output.19781356
+Q5: n=100000000 p=1
+n = 100000000, p = 1, pi = 3.1415926535900223, relative error = 7.29e-14, time (sec) = 0.16404983
+Q5: n=100000000 p=2
+n = 100000000, p = 2, pi = 3.1415926535902168, relative error = 1.35e-13, time (sec) = 0.08236971
+Q5: n=100000000 p=4
+n = 100000000, p = 4, pi = 3.1415926535896137, relative error = 5.71e-14, time (sec) = 0.04180744
+[1789696370.027284] [c441:4033596:0]         mm_sysv.c:59   UCX  ERROR shmat(shmid=135036956) failed: Invalid argument
+[1789696370.027303] [c441:4033596:0]         mm_sysv.c:59   UCX  ERROR shmat(shmid=135036953) failed: Invalid argument
+Q5: n=100000000 p=8
+n = 100000000, p = 8, pi = 3.1415926535897754, relative error = 5.65e-15, time (sec) = 0.15941419
+Q5: n=100000000 p=16
+n = 100000000, p = 16, pi = 3.1415926535897740, relative error = 6.08e-15, time (sec) = 0.24120961
+Q5: n=100000000 p=32
+n = 100000000, p = 32, pi = 3.1415926535897940, relative error = 2.83e-16, time (sec) = 0.00660448
+Q5: n=100000000 p=64
+n = 100000000, p = 64, pi = 3.1415926535897931, relative error = 0.00e+00, time (sec) = 0.01162598
+Q7: n=100 p=1
+n = 100, p = 1, pi = 3.1416009869231245, relative error = 2.65e-06, time (sec) = 0.00001680
+Q7: n=10000 p=1
+n = 10000, p = 1, pi = 3.1415926544231318, relative error = 2.65e-10, time (sec) = 0.00003277
+Q7: n=1000000 p=1
+n = 1000000, p = 1, pi = 3.1415926535899388, relative error = 4.64e-14, time (sec) = 0.00166357
+Q7: n=100 p=64
+n = 100, p = 64, pi = 3.1416009869231249, relative error = 2.65e-06, time (sec) = 0.00985739
+Q7: n=10000 p=64
+n = 10000, p = 64, pi = 3.1415926544231265, relative error = 2.65e-10, time (sec) = 0.01214592
+Q7: n=1000000 p=64
+n = 1000000, p = 64, pi = 3.1415926535898757, relative error = 2.63e-14, time (sec) = 0.00933785
+
+run#3:
+Q5: n=100000000 p=1
+n = 100000000, p = 1, pi = 3.1415926535900223, relative error = 7.29e-14, time (sec) = 0.15191767
+Q5: n=100000000 p=2
+n = 100000000, p = 2, pi = 3.1415926535902168, relative error = 1.35e-13, time (sec) = 0.07799947
+Q5: n=100000000 p=4
+n = 100000000, p = 4, pi = 3.1415926535896137, relative error = 5.71e-14, time (sec) = 0.08077565
+Q5: n=100000000 p=8
+n = 100000000, p = 8, pi = 3.1415926535897754, relative error = 5.65e-15, time (sec) = 0.17282820
+Q5: n=100000000 p=16
+n = 100000000, p = 16, pi = 3.1415926535897740, relative error = 6.08e-15, time (sec) = 0.15872939
+Q5: n=100000000 p=32
+n = 100000000, p = 32, pi = 3.1415926535897940, relative error = 2.83e-16, time (sec) = 0.65974204
+Q5: n=100000000 p=64
+n = 100000000, p = 64, pi = 3.1415926535897931, relative error = 0.00e+00, time (sec) = 0.04658476
+Q7: n=100 p=1
+n = 100, p = 1, pi = 3.1416009869231245, relative error = 2.65e-06, time (sec) = 0.00001183
+Q7: n=10000 p=1
+n = 10000, p = 1, pi = 3.1415926544231318, relative error = 2.65e-10, time (sec) = 0.00002763
+Q7: n=1000000 p=1
+n = 1000000, p = 1, pi = 3.1415926535899388, relative error = 4.64e-14, time (sec) = 0.00152663
+Q7: n=100 p=64
+n = 100, p = 64, pi = 3.1416009869231249, relative error = 2.65e-06, time (sec) = 0.02088889
+Q7: n=10000 p=64
+n = 10000, p = 64, pi = 3.1415926544231265, relative error = 2.65e-10, time (sec) = 0.01005510
+Q7: n=1000000 p=64
+n = 1000000, p = 64, pi = 3.1415926535898757, relative error = 2.63e-14, time (sec) = 0.01922262
+
+
+Question 6:
+Q6: n=10000000000 nodes=16  ntasks-per-node=4
+n = 10000000000, p = 64, pi = 3.1415926535897944, relative error = 4.24e-16, time (sec) = 0.26946154
+
+Q6: n=10000000000 nodes=8  ntasks-per-node=8
+n = 10000000000, p = 64, pi = 3.1415926535897944, relative error = 4.24e-16, time (sec) = 0.27876676Q6: n=10000000000 nodes=4  ntasks-per-node=16
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 16 PID 477684 RUNNING AT c590
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 17 PID 477685 RUNNING AT c590
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 18 PID 477686 RUNNING AT c590
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 19 PID 477687 RUNNING AT c590
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 20 PID 477688 RUNNING AT c590
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 21 PID 477689 RUNNING AT c590
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 22 PID 477690 RUNNING AT c590
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 23 PID 477691 RUNNING AT c590
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 24 PID 477692 RUNNING AT c590
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 25 PID 477693 RUNNING AT c590
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 26 PID 477694 RUNNING AT c590
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 27 PID 477695 RUNNING AT c590
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 28 PID 477696 RUNNING AT c590
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 29 PID 477697 RUNNING AT c590
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 30 PID 477698 RUNNING AT c590
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 31 PID 477699 RUNNING AT c590
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+[2026-09-18T09:24:41.984] error: Detected 2 oom_kill events in StepId=19785022.0. Some of the step tasks have been OOM Killed.
+srun: error: c590: task 1: Out Of Memory
+I_MPI_JOB_TIMEOUT = -1 second(s): job ending due to startup timeout
+
+Q6: n=10000000000 nodes=4  ntasks-per-node=16
+n = 10000000000, p = 64, pi = 3.1415926535897949, relative error = 5.65e-16, time (sec) = 14.46682643
+
+Q6: n=10000000000 nodes=4  ntasks-per-node=16
+n = 10000000000, p = 64, pi = 3.1415926535897949, relative error = 5.65e-16, time (sec) = 0.26692614
+
+Q6: n=10000000000 nodes=2  ntasks-per-node=32
+n = 10000000000, p = 64, pi = 3.1415926535897949, relative error = 5.65e-16, time (sec) = 0.26790406
+
+
+
+
